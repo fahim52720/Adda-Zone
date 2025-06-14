@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Adda Zone Apps</title>
+    <!-- Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS কোড এখানে যুক্ত করা হয়েছে -->
+    <style>
+        /* Basic Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #1c2a48;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* App Grid Layout */
+        .app-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap; /* This makes it responsive for mobile */
+        }
+
+        /* App Card Styling */
+        .app-card {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            padding: 35px 30px;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .app-logo {
+            max-width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .app-title {
+            font-size: 1.6rem;
+            color: #2d3748;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        /* Download Button Styling */
+        .download-btn {
+            display: inline-block;
+            padding: 14px 40px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: opacity 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            opacity: 0.9;
+        }
+
+        .btn-blue {
+            background-color: #0d6efd; /* Blue color from the first logo */
+        }
+
+        .btn-red {
+            background-color: #dc3545; /* Red color from the second logo */
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            .app-card {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Adda Zone Applications</h1>
+            <p>আপনার প্রয়োজনীয় অ্যাপস ডাউনলোড করুন এক ক্লিকে</p>
+        </header>
+
+        <main class="app-grid">
+            <!-- প্রথম অ্যাপ কার্ড: Adda Zone Apk -->
+            <div class="app-card">
+                <img src="logo_addazone_apk.png" alt="Adda Zone Apk Logo" class="app-logo">
+                <h2 class="app-title">Adda Zone Apk</h2>
+                <a href="https://drive.google.com/uc?export=download&id=1WKRwZEFNM1RJQ6dIa5KQAEcOGojqg_xk" class="download-btn btn-blue">Download Now</a>
+            </div>
+
+            <!-- দ্বিতীয় অ্যাপ কার্ড: Adda Zone Studio -->
+            <div class="app-card">
+                <img src="logo_addazone_studio.png" alt="Adda Zone Studio Logo" class="app-logo">
+                <h2 class="app-title">Adda Zone Studio</h2>
+                <a href="https://drive.google.com/uc?export=download&id=1FKyAc7ILDCnM4v6XPG45zJhO3nVQ2no9" class="download-btn btn-red">Download Now</a>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Adda Zone. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
